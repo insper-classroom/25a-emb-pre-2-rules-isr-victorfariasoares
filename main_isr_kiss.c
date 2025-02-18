@@ -1,7 +1,6 @@
 #include "asf.h"
 
 volatile int g_cnt = 0;
-char g_str[10];
 //int batata;
 
 // This code creates a progress bar on an OLED screen that
@@ -17,6 +16,7 @@ void btn_callback(void) {
 }
 
 void main(void) {
+  char g_str[10];
   // ...
   printf("btn pressed \n");
 
